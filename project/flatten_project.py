@@ -7,4 +7,7 @@ def flatten(l):
             new_l.extend(flatten(x))
         else:
             new_l.append(x)
-    return new_l  
+    return new_l
+    
+flatten(l)
+print(flatten(l))
